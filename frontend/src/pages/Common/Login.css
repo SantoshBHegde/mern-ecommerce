@@ -1,0 +1,15 @@
+.login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.login-labels{
+    display: flex;
+    justify-content: space-between;
+}
+
+.login-labels a{
+    font-size: 12px;
+}

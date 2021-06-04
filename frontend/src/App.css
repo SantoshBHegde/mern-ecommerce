@@ -1,0 +1,87 @@
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width: 576px) {
+    .container {
+        width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+
+.nice-form{
+    padding: 20px 30px;
+    border: 1px solid #f0f0f0;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    min-width: 320px;
+}
+
+.nice-form h3{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.nice-form > div{
+    margin: 10px 0px;
+}
+
+.nice-form label{
+    font-size: 14px;
+}
+.nice-form input{
+    display: block;
+    width: 100%;
+    padding:5px;
+    border-radius: 0px;
+    border: 1px solid rgb(209 209 209);
+}
+
+.nice-form input:focus{
+    border: 1px solid black;
+    border-radius: 0px;
+}
+
+.nice-form button{
+    width: 100%;
+    background-color: black;
+    border-radius: 0;
+    border: none !important;
+    padding: 10px;
+    color: white;
+    margin: 10px 0px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.nice-form button:hover{
+    background-color: #535353;
+}
+.nice-form button:active{
+    background-color: #535353;
+}
+
+.nice-form .form-footer{
+    font-size: 14px;
+    text-align: center;
+}

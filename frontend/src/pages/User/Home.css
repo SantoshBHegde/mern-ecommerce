@@ -1,0 +1,26 @@
+.black-empty-button {
+    background-color: rgb(255, 255, 255);
+    border-radius: 0px;
+    border: 1px solid rgb(209 209 209);
+    padding: 10px 20px;
+    color: black;
+}
+
+.black-empty-button:hover {
+    text-decoration: none;
+    border: 1px solid black;
+}
+
+.card-list {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+    margin-top: 120px;
+}
+
+@media (max-width: 768px) {
+    .card-list {
+        justify-content: space-around;
+    }
+}
