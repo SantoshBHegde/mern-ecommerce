@@ -24,7 +24,7 @@ const ForgotPassword = () => {
                     />
                 </div>
 
-                <button type="submit">Submit</button>
+                <button type="submit" className="black-button">Submit</button>
 
                 <div className="form-footer">
                     <Link to="/login">Back to Login</Link>

@@ -19,7 +19,7 @@ function App() {
           <Navbar />
           <Switch>
               <Route path="/" exact><Home /></Route>
-              <Route path="/product:id" exact><ProductDetail /></Route>
+              <Route path="/product/:id" exact><ProductDetail /></Route>
               <Route path="/cart" exact><Cart /></Route>
               <Route path="/wishlist" exact><Wishlist /></Route>
               <Route path="/checkout" exact><Checkout /></Route>

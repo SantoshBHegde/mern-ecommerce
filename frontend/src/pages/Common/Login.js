@@ -29,7 +29,7 @@ const Login = () => {
                     <input value={password} onChange={(e) => setPassword(e.target.value)} type="password" name="password"></input>
                 </div>
 
-                <button type="submit">Sign In</button>
+                <button type="submit" className="black-button">Sign In</button>
                 <div className="form-footer">
                     <p>If you don't have account?</p>
                     <Link to="/register">Register</Link>

@@ -1,0 +1,11 @@
+.cartitem{
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr 1fr 1fr;
+    place-items: center;
+    padding: 10px;
+    background-color: #e1e1e1;
+}
+
+.cartitem img{
+    max-width: 120px;
+}

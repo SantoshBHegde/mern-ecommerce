@@ -62,7 +62,7 @@
     border-radius: 0px;
 }
 
-.nice-form button{
+.black-button{
     width: 100%;
     background-color: black;
     border-radius: 0;
@@ -85,3 +85,41 @@
     font-size: 14px;
     text-align: center;
 }
+
+/* wishlist and add to cart button */
+.wishlist-button{
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0px;
+    border: 1px solid rgb(209 209 209);
+    padding: 7px 10px;
+    cursor: pointer;
+    transform: translate(-45px, 5px)!important;
+}
+
+
+.wishlist-button:hover{
+    background-color: black;
+    color: white;
+}
+
+.wishlist-button:active{
+    border: 1px;
+}
+
+.addtocart-button{
+    background-color: black;
+    border-radius: 0px;
+    color: white;
+    border: 1px solid black;
+    padding: 7px 20px;
+    cursor: pointer;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.addtocart-button:hover{
+    background-color: #333333;
+}
+
+/* wishlist and add to cart button */

@@ -29,7 +29,7 @@ const ResetPassword = () => {
                     <input value={confirmPassword} onChange={(e) => setConfirmPassword(e.target.value)} type="password" name="confirm-password"></input>
                 </div>
 
-                <button type="submit">Reset my Password</button>
+                <button type="submit" className="black-button">Reset my Password</button>
 
                 <div className="form-footer">
                     <Link to="/login">Back to Login</Link>

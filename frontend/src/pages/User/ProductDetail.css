@@ -1,0 +1,19 @@
+.pdetail{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 120px;
+}
+
+.pdetail__left{
+    flex: 0.5;
+    padding: 20px;
+}
+
+.pdetail__right{
+    flex: 0.5;
+    padding: 20px;
+}
+
+.pdetail__left img{
+    width: 100%;
+}

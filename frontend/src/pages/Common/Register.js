@@ -41,7 +41,7 @@ const Register = () => {
                     <input value={confirmPassword} onChange={(e) => setConfirmPassword(e.target.value)} type="password" name="confirm-password" />
                 </div>
 
-                <button type="submit">Register</button>
+                <button type="submit" className="black-button">Register</button>
                 <div className="form-footer">
                     <p>Already have an account?</p>
                     <Link to="/login">Login</Link>
